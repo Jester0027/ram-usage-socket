@@ -1,0 +1,7 @@
+[Unit]
+Description=Ram usage service
+
+[Service]
+ExecStart=ram-usage.sh
+StandardInput=socket
+StandardOutput=socket

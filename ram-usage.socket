@@ -1,0 +1,9 @@
+[Unit]
+Description=Ram usage socket endpoint
+
+[Socket]
+Accept=true
+ListenStream=127.0.0.1:3333
+
+[Install]
+WantedBy=sockets.target
